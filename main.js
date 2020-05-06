@@ -4,6 +4,7 @@ var app = new Vue({
     /** data properties **/
     product: 'Socks',
     image: './assets/vmSocks-green-onWhite.jpg',
+    inStock: false,
     inventory: 2,
     details: ["80% cotton", "20% polyester", "Gender-neutral"],
     variants: [
